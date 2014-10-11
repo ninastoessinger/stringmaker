@@ -1,0 +1,124 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	border: 0;
+	margin: 0;
+	background-color: #fff;
+	color: #222;
+}
+
+h1 {
+	font-family: Consolas, Menlo, "Lucida Console", "Courier New", monospace;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 0px;
+	margin-bottom: 32px;
+}
+
+p, span, ul, li, a {
+	font-family: Consolas, Menlo, "Lucida Console", "Courier New", monospace;
+	font-size: 15px;	
+	color: #222;
+	line-height: 2em;
+}
+
+a {	
+	color: #cc0022;
+	text-decoration: none;
+}
+a:Hover {
+	text-decoration: underline;	
+}
+
+div#input {
+	margin-top: 22px;
+	margin-left: 50px;
+	border-left: 4px solid #ccc;
+	padding-left: 42px;
+	height: 370px;	
+}
+div#output {
+	margin-left: 50px;
+	border-left: 4px solid #cc0022;
+	padding-left: 42px;
+	width: 90%;
+	height: 420px;
+}
+
+div#help {
+	position: absolute;
+	top: 35px;
+	left: 45px;
+	width: 600px;
+	padding: 10px;
+	z-index: 9;
+	background-color: #f1f1f1;
+	border: 1px solid #fff;
+	box-shadow: 4px 4px 4px #e8e8e8;
+	-webkit-box-shadow:4px 4px 4px #e8e8e8;
+	-moz-box-shadow: 4px 4px 4px #e8e8e8;
+}
+
+input, select {
+	background-color: #e8e8e8;
+	color: #222;	
+	font-family: Consolas, Menlo, "Lucida Console", "Courier New", monospace;
+	font-size: 15px;	
+	padding: 2px;
+	border: 0;
+}
+
+input#preview {
+	font-family: Consolas, Menlo, "Lucida Console", "Courier New", monospace;
+	font-size: 42px;
+	color: #cc0022;	
+	background-color: white;
+}
+
+textarea {
+	font-family: Consolas, Menlo, "Lucida Console", "Courier New", monospace;
+	color: #cc0022;	
+	border: 0;
+	font-size: 18px;
+	margin-top: 16px;
+	border-bottom: 1px solid #eee;
+}
+
+#header {
+	margin-top: 0px;
+	margin-left: 50px;
+	height: 35px;
+}
+
+textarea::-moz-selection {
+	background:#e8e8e8;
+	color:#222;
+}
+
+textarea::-webkit-selection {
+	background:#e8e8e8;
+	color:#222;
+}
+
+p::-moz-selection, ul::-moz-selection, li::-moz-selection {
+	background:#222;
+	color:#fff;
+}
+
+p::-webkit-selection, ul::-webkit-selection, li::-webkit-selection {
+	background:#222;
+	color:#fff;
+}
+
+
+#part1_punct {
+	background-color: #fff;
+	color: #999;	
+}
+#part2_punct {
+	background-color: #fff;
+	color: #999;	
+}
